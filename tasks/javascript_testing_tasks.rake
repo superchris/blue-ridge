@@ -27,6 +27,8 @@ namespace :test do
   end
   
   task :javascript => :javascripts
+
+
 end
 
 # Support RSpec style
