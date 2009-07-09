@@ -33,6 +33,11 @@ To generate and run a spec for a JavaScript file called "public/javascripts/grap
 
 To run your spec inside a web browser, load the `HTML fixture` associated with the spec. (See below for more information on HTML fixtures and in-browser testing).
 
+To run your specs inside a browser from rake using selenium_rc (e.g. as part of a ci build):
+    rake test:javascript:selenium_rc
+
+Note that you'll need the selenium-client gem added to config.gems for this to work.
+
 Directory Layout: Specs and Fixtures
 -------------------------------------
 
